@@ -1,0 +1,26 @@
+//colors
+
+$white : #fff;
+$black : #000;
+$red : #8e1923;
+$gray : #727272;
+$orange : #f26921;
+$blue : #3d5e9d;
+$lBlue: #7cb7e7;
+$dRed : #821432;
+$lGray: #dddddc;
+$dBlue: #1a2840;
+
+$stack-sans-serif : Helvetica, Arial, sans-serif;
+$ubuntu: 'ubuntu', $stack-sans-serif;
+//$Cuprum-BoldItalic: 'Cuprum-BoldItalic', $stack-sans-serif;
+//$Cuprum-Italic: 'Cuprum-Italic', $stack-sans-serif;
+//$Cuprum-Regular: 'Cuprum', $stack-sans-serif;
+
+
+//breakpoints
+$brk-lg : '(max-width: 1200px)';
+$brk-md: '(max-width: 992px)';
+$brk-sm : '(max-width: 768px)';
+$brk-xs : '(max-width: 460px)';
+

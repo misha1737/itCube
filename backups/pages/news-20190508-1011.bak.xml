@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Wed, 08 May 2019 11:17:37 +0300</pubDate><title><![CDATA[новина 1]]></title><url><![CDATA[news-20190508-1011]]></url><metad><![CDATA[]]></metad><menu><![CDATA[новина 1]]></menu><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[novini]]></parent><content><![CDATA[&lt;p&gt;текст новини 1&lt;/p&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author><meta><![CDATA[_special_news, news]]></meta><special>news</special><name><![CDATA[http://localhost:3000/data/uploads/newsimg.jpg]]></name><date><![CDATA[9 січня 2019]]></date><creDate>Wed, 08 May 2019 10:11:36 +0300</creDate><user><![CDATA[admin]]></user><menuOrder><![CDATA[1]]></menuOrder></item>

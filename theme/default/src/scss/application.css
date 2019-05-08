@@ -1,0 +1,103 @@
+/*order is imp*/
+span.star {
+  font-size: 12px;
+  vertical-align: top; }
+
+body.window {
+  margin: 0; }
+
+@font-face {
+  font-family: 'ubuntu';
+  src: url("fonts/ubuntu.ttf"); }
+#index img.mobileH, #index img.mobileHH {
+  display: none; }
+#index .container-fluid {
+  padding: 0;
+  border-top: 8px solid black; }
+  #index .container-fluid .head {
+    padding-bottom: 30px; }
+#index header {
+  border-top: 8px solid #c2151b;
+  padding-top: 30px; }
+  #index header div {
+    padding: 0; }
+  #index header .contacts {
+    float: right; }
+    #index header .contacts .phone, #index header .contacts .mail {
+      font-size: 26px;
+      font-family: "ubuntu", Helvetica, Arial, sans-serif;
+      color: Black;
+      font-weight: 300;
+      font-weight: 400;
+      padding-top: 6px;
+      vertical-align: top; }
+      #index header .contacts .phone img, #index header .contacts .mail img {
+        width: 24px; }
+#index .part {
+  border-bottom: 1px solid #c2151b;
+  padding: 30px 0; }
+  #index .part h2 {
+    font-size: 22px;
+    font-family: "ubuntu", Helvetica, Arial, sans-serif;
+    color: Black;
+    font-weight: 300;
+    color: #c2151b;
+    margin: 30px 0;
+    font-weight: 500;
+    text-transform: uppercase; }
+  #index .part p {
+    font-size: 18px;
+    font-family: "ubuntu", Helvetica, Arial, sans-serif;
+    color: Black;
+    font-weight: 300;
+    line-height: 27px;
+    margin: 20px 0;
+    font-weight: 500; }
+  #index .part p.contactsB {
+    color: #c2151b;
+    font-weight: 900; }
+#index .partL {
+  border: none; }
+#index footer .footerBackground {
+  background-image: url("images/footer.svg");
+  /* The image used */
+  height: 20vh;
+  /* You must set a specified height */
+  background-position: bottom;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */ }
+#index footer {
+  position: relative; }
+  #index footer .footerLogo {
+    position: absolute;
+    z-index: -1;
+    width: 400px;
+    right: 0;
+    bottom: 0; }
+    #index footer .footerLogo img {
+      width: 100%; }
+#index span .star {
+  font-size: 14px; }
+
+@media only screen and (max-width: 700px) {
+  #index img.mobileH {
+    display: block;
+    position: absolute;
+    left: 0; }
+  #index img.pcH {
+    display: none; }
+  #index img.mobileHH {
+    display: block; }
+  #index .container-fluid {
+    padding: 0 15px; }
+  #index header .contacts {
+    float: left;
+    margin: 20px 0; }
+  #index footer .footerLogo {
+    width: 160px;
+    bottom: 30px; } }
+
+/*# sourceMappingURL=application.css.map */

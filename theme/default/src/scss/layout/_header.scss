@@ -1,0 +1,124 @@
+
+	header{
+		.relbox{
+			position: relative;
+		}
+		
+		//height:90px;
+		background-color: black;
+		//border-top: 8px solid $red;
+		padding-top:10px;
+		.logo1{
+			img{
+			display: inline-block;
+			width:60px;
+			}
+		}
+		
+		div{
+			padding:0;
+		}
+		.contactsMobile{
+			display:none;
+		}
+		.contacts{
+			float:right;
+
+			.phone, .mail, .faceBook, .youtube{
+				@include text(26px);
+				font-weight: 400;
+				padding-top:6px;
+				margin:0 5px;
+				//vertical-align: top;
+				display: inline-block;
+				img{
+					height:24px;
+				}
+			}
+
+		}
+		.languageBlock{
+			//width:100%;
+			position: absolute;
+			right:20px;
+			bottom:-10px;
+
+			.language-item{
+
+				display:inline-block;
+				padding: 0 3px;
+				a{
+					@include text(16px);
+					float:right;
+							color:white;
+
+				}
+	
+			}
+		}
+.head{
+		height:90px;
+		background-color: black;
+		//position:fixed;
+		h4{
+			position: absolute;
+			top:0;
+			margin-left: 50px;
+			@include text(20px);
+			color: white;
+			display:inline-block;
+		}
+		h5{
+			//position: absolute;
+			//top:0;
+			//margin-left: 50px;
+			@include text(16px);
+			color: white;
+			display:inline-block;
+			line-height: 24px;
+    		vertical-align: top;
+		}
+	}
+.headBaner{
+	position: relative;
+	h1{
+		width:320px;
+		@include text(64px);
+		color:white;
+		position: absolute;
+
+		right: 20%;
+		top:30%;
+	
+		display:inline-block;
+
+
+	}
+}
+
+
+.menu{
+	display:flex;
+	align-self: center;
+	justify-content: center;
+	background-color: $dBlue;
+	li{
+		list-style: none;
+		margin:20px 20px;
+		
+		a{
+			transition: 0.5s;
+			@include text(14px);
+			color:white;
+			text-transform: uppercase;
+			&:hover{
+				color:$red;
+				text-decoration: none;
+			};
+		}
+	}
+}
+
+
+	}
+

@@ -1,0 +1,75 @@
+footer{
+		background-color: $dBlue;
+	//position: absolute;
+	bottom:0;
+	height:100px;
+		display:flex;
+		justify-content:center;
+		align-items: center;
+				h5{
+			//position: absolute;
+			//top:0;
+			//margin-left: 50px;
+			@include text(16px);
+			color: white;
+			display:inline-block;
+			    line-height: 24px;
+    vertical-align: top;
+		}
+		img{
+			display: inline-block;
+		}
+		.footerIMG{
+			display: inline-block;
+			float:right;
+			img.brain{
+				float: right;
+				//position: absolute;
+				//right:50;
+				padding-left:50px;
+			}
+		}
+		.footerLogo{
+
+
+			display: inline-block;
+			img{
+				width:64px;
+			}
+			h4{
+			top:0;
+			margin-left: 80px;
+			@include text(20px);
+			color: white;
+			display:block;
+			margin-top: -50px;
+			//line-height: 64px;
+			}
+				
+					h4.mobileNumber{
+						display:none;
+					}
+				
+		}
+	}
+		
+	footer{
+			.contacts{
+			float:right;
+
+			.phone, .mail{
+
+				@include text(26px);
+				font-weight: 400;
+				padding-top:6px;
+				margin:0 5px;
+				vertical-align: top;
+				display: inline-block;
+					margin-top: 10px;
+				img{
+					height:24px;
+				}
+			}
+
+		}
+	}

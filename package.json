@@ -1,0 +1,30 @@
+{
+  "name": "test-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "misha",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-css-url-prefixer": "^0.1.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uncss-sp": "0.0.1",
+    "gulp-watch": "^5.0.1"
+  },
+  "dependencies": {
+    "npm": "^6.8.0"
+  }
+}

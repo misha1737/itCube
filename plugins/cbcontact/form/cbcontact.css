@@ -1,0 +1,61 @@
+#cbform {color: #555555; font-family: Arial,Helvetica,sans-serif; width: 100%; }
+
+#cbform .noshow { display: none;  }
+
+#cbform .cbright { border-radius: 4px;
+	     -moz-border-radius: 4px;
+	     -khtml-border-radius: 4px;
+	     -webkit-border-radius: 4px;
+	     /*-o-border-radius: 4px;*/
+            border-style: inset; font-size: 14px; margin-bottom: 6px; margin-left: 5px; padding: 5px; width: 400px; }
+
+#cbform .cbrightV { border-radius: 4px; 
+	     -moz-border-radius: 4px;
+	     -khtml-border-radius: 4px;
+	     -webkit-border-radius: 4px;
+	     /*-o-border-radius: 4px;*/
+            border-style: solid; border-color: #CCCCCC; color: #777777; font-family: Arial,Helvetica,sans-serif; font-size: 14px; margin-bottom: 6px; margin-left: 90px; padding: 5px; width: 400px; }
+
+#cbform .cbradio {
+             margin-left: 15px;
+             vertical-align: middle;       
+}
+
+#cbform .cbcheck {
+             margin-left: 15px;
+             vertical-align: middle;   
+}
+
+#cbform textarea { border-radius: 4px; 
+	     -moz-border-radius: 4px;
+	     -khtml-border-radius: 4px;
+	     -webkit-border-radius: 4px;
+           height: 100px;}
+
+#cbform .cbcaptcha { padding-left: 90px; width: 400px; }
+#cbform .cbcaptcha .cbcaptchaimg { border: 2px outset #CCCCCC; margin: 0 15px 10px 0; vertical-align: middle; }
+#cbform .cbcaptcha_label { font-size: 16px; width: 390px; margin-top: 5px; }
+#cbform .cbcaptcha_input { border-radius: 4px;
+	     -moz-border-radius: 4px;
+	     -khtml-border-radius: 4px;
+	     -webkit-border-radius: 4px;
+             border-color: #CCCCCC; border-style: solid; font-size:20px; margin: 0 15px 0 0; padding: 5px; text-align: center; vertical-align: middle; width: 164px; }
+
+#cbform .cbcaptcha_write { font-size: 12px; font-style: italic;  margin-top: -5px; }
+
+#cbform  .cbreload, .cbsend { background-color: #DEDEDE; border-radius: 4px; 
+	     -moz-border-radius: 4px;
+	     -khtml-border-radius: 4px;
+	     -webkit-border-radius: 4px;
+            border-style: outset; color: #444444; font-size: 18px; padding: 3px 0; vertical-align: top; width: 100px; }
+
+#cbform  .cbreload:hover, .cbsend:hover {   
+    background-color: #EEEEEE;
+    border-style: inset; }
+
+#cbform .cbreload_label { font-size: 11px; font-style: italic; }
+
+#cbform .cbpadleft { padding-left: 90px; }
+
+.msgshw { margin-bottom: 10px; }
+

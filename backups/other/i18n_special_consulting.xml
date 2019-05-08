@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specialpage><name>consulting</name><title><![CDATA[consulting]]></title><parent>consulting</parent><tags><![CDATA[consulting]]></tags><slug>consulting-%Y%m%d-%H%M</slug><template><![CDATA[template.php]]></template><menu>0</menu><headercomponent></headercomponent><defaultcontent><![CDATA[]]></defaultcontent><fields/></specialpage>

@@ -1,0 +1,40 @@
+<?php
+$lbp_def_params = array(
+    'classImageThumbnail'   =>  'lb-thumbnail'
+  , 'mode'                  =>  'lg-slide'
+  , 'cssEasing'             =>  'ease'
+  , 'speed'                 =>  600
+  , 'height'                =>  '100%'
+  , 'width'                 =>  '100%'
+  , 'addClass'              =>  ''
+  , 'startClass'            =>  'lg-start-zoom'
+  , 'backdropDuration'      =>  150
+  , 'hideBarsDelay'         =>  6000
+  , 'useLeft'               =>  'false'
+  , 'closable'              =>  'true'
+  , 'loop'                  =>  'true'
+  , 'escKey'                =>  'true'
+  , 'keyPress'              =>  'true'
+  , 'controls'              =>  'true'
+  , 'slideEndAnimatoin'     =>  'true'
+  , 'hideControlOnEnd'      =>  'false'
+  , 'download'              =>  'true'
+  , 'counter'               =>  'true'
+  , 'enableDrag'            =>  'true'
+  , 'enableTouch'           =>  'true'
+  , 'thumbnail'             =>  'true'
+  , 'pager'                 =>  'false'
+  , 'showThumbByDefault'    =>  'true'
+  , 'animateThumb'          =>  'true'
+  , 'currentPagerPosition'  =>  'middle'
+  , 'thumbWidth'            =>  100
+  , 'thumbContHeight'       =>  100
+  , 'thumbMargin'           =>  5
+  , 'autoplay'              =>  'true'
+  , 'pause'                 =>  5000
+  , 'progressBar'           =>  'true'
+  , 'autoplayControls'      =>  'true'
+  , 'fullScreen'            =>  'true'
+  , 'zoom'                  =>  'true'
+);
+?>

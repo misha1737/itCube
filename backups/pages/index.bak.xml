@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Wed, 08 May 2019 11:30:27 +0300</pubDate><title><![CDATA[Про нас]]></title><url><![CDATA[index]]></url><meta><![CDATA[getsimple, easy, content management system]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Про нас]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;div class=&quot;container&quot;&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;h3&gt;Переваги&lt;/h3&gt;
+
+			&lt;a href=&quot;&quot; class=&quot;perevagaBox&quot;&gt;
+				&lt;div class=&quot;perevagaIcon&quot;&gt;
+					&lt;i class=&quot;fa fa-tty&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;	
+				&lt;/div&gt;
+
+				&lt;div class=&quot;perevagaText&quot;&gt;
+					перевага 1
+				&lt;/div&gt;
+			&lt;/a&gt;
+
+			&lt;a href=&quot;&quot; class=&quot;perevagaBox&quot;&gt;
+				&lt;div class=&quot;perevagaIcon&quot;&gt;
+					&lt;i class=&quot;fa fa-book&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;	
+				&lt;/div&gt;
+
+				&lt;div class=&quot;perevagaText&quot;&gt;
+					перевага 2
+				&lt;/div&gt;
+			&lt;/a&gt;
+			
+			&lt;a href=&quot;&quot; class=&quot;perevagaBox&quot;&gt;
+				&lt;div class=&quot;perevagaIcon&quot;&gt;
+					&lt;i class=&quot;fa fa-clock-o&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;perevagaText&quot;&gt;
+					перевага 3
+				&lt;/div&gt;
+			&lt;/a&gt;
+
+			&lt;a href=&quot;&quot; class=&quot;perevagaBox&quot;&gt;
+				&lt;div class=&quot;perevagaIcon&quot;&gt;
+					&lt;i class=&quot;fa fa-search&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;perevagaText&quot;&gt;
+					перевага 4
+				&lt;/div&gt;
+			&lt;/a&gt;
+
+			&lt;a href=&quot;&quot; class=&quot;perevagaBox&quot;&gt;
+				&lt;div class=&quot;perevagaIcon&quot;&gt;
+					&lt;i class=&quot;fa fa-mobile&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;perevagaText&quot;&gt;
+					перевага 5
+				&lt;/div&gt;
+			&lt;/a&gt;
+
+				&lt;a href=&quot;&quot; class=&quot;perevagaBox&quot;&gt;
+				&lt;div class=&quot;perevagaIcon&quot;&gt;
+					&lt;i class=&quot;fa fa-exchange&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;perevagaText&quot;&gt;
+					перевага 6
+				&lt;/div&gt;
+			&lt;/a&gt;
+
+				&lt;a href=&quot;&quot; class=&quot;perevagaBox&quot;&gt;
+				&lt;div class=&quot;perevagaIcon&quot;&gt;			
+					&lt;i class=&quot;fa fa-lock&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;perevagaText&quot;&gt;
+					перевага 7
+				&lt;/div&gt;
+			&lt;/a&gt;
+
+
+
+
+
+
+		&lt;h3&gt;Новини&lt;/h3&gt;
+
+(% searchresults HEADER:&#039;&#039; live=1 showTags=1 lang=&quot;ua&quot; minTagSize=90 max=100 maxTagSize=200 order=+menuOrder addTags=&quot;news&quot; &quot;%)
+
+		&lt;h3&gt;Консалтинг&lt;/h3&gt;
+
+		&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author><menuOrder><![CDATA[1]]></menuOrder><creDate>Wed, 08 May 2019 10:08:02 +0300</creDate><user><![CDATA[admin]]></user></item>

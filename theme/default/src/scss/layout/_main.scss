@@ -1,0 +1,256 @@
+body{
+	background-color: #e9f5fd;
+	article{margin: 15px 0;
+		min-height: 100vh;
+
+
+
+		h1{
+		display:none;
+	}
+
+
+
+
+
+	}
+
+		
+	
+	img.mobileH, img.mobileHH{
+		display:none;
+	}
+	.container-fluid{
+		padding:0;
+		
+		.head{
+				padding-bottom:30px;
+
+			//border-bottom: 1px solid gray;
+		}
+	}
+
+
+
+
+
+
+
+	h3{
+		@include text(24px);
+		text-align: center;
+	}p{
+		@include text(18px);
+		margin-top: 18px;
+	}
+
+
+
+
+	span .star{
+		font-size: 14px;
+	}
+
+}
+.mobileBlock{
+	display:none;
+}
+
+@media only screen and (max-width : 768px){
+
+		body{
+			.head h4{
+				margin-left: 0;
+				    padding-left: 5px;
+			}
+
+
+			img.mobileH{
+				display:block;
+				position:absolute;
+				left:0;
+				z-index: -5;
+			}
+			img.pcH{
+				display:none;
+			}
+			img.mobileHH{
+				display:block;
+
+			}
+
+			.container-fluid{
+				padding:0 15px;
+			}
+			header{
+				.contacts{
+					float:left;
+					margin: 20px 0;
+					display:none;
+				}
+			
+			.contactsMobile{
+				display: inline-block;
+					
+				@include text(26px);
+				font-weight: 400;
+				padding-top:6px;
+				margin:0 5px;
+				//margin-left: 50px;
+				//vertical-align: top;
+				display: inline-block;
+
+					img{
+						height:24px;
+					}
+				&.phone img{
+					display:none;
+				}
+				&.mail img{
+					position: absolute;
+					top:5px;
+					right:5px;
+				}
+
+
+			}
+
+			}
+.headBaner{
+	position: relative;
+	h1{
+		width:100%;
+		height:60px;
+		@include text(44px);
+		font-weight: 900;
+		color:white;
+		position: static;
+		text-align: center;
+		left: 15px;
+		top:30%;
+		background-color: black;
+		padding-top: 30px;
+		display:block;
+
+
+	}
+}
+article{
+	padding:15px;
+}
+footer{
+		height:80px;
+			.contacts{
+			float:right;
+
+			.phone, .mail{
+
+				@include text(26px);
+				font-weight: 400;
+				padding-top:6px;
+				margin:0 5px;
+				vertical-align: top;
+				display: inline-block;
+					margin-top: 30px;
+				}
+			}
+
+			
+	
+
+		.footerLogo{
+
+			display: inline-block;
+			img{
+			width:64px;
+			position: absolute;
+			left:15px;
+			bottom:10px;
+			}
+			h4{
+			top:0;
+			display: inline-block;
+			padding-left: 10px;
+			//margin-left: 30px;
+			@include text(20px);
+			margin-top: 0px;
+			vertical-align: top;
+			//line-height: 64px;
+			color:white;
+			display: block;
+			margin-left: 0 ;
+			//margin-top: -30px;
+			}
+			h4.mobileNumber{
+						display:inline-block;
+						font-size:14px;
+			}
+				
+		
+		.mobileBlock{
+			img{
+				left:2px;
+				position: absolute;
+				width:32px;
+				right:32px !important;
+
+			}
+			h4{
+				font-size: 16px;
+			}
+		}
+		}
+.contacts{
+	display:none;
+}
+		
+
+
+		.footerIMG{
+				
+					img.brain{
+						display:none;
+					}
+				}
+
+
+				}
+
+
+
+		}
+
+
+.mobileBlock{
+	display:inline-block;
+
+	&.phone {
+
+				@include text(14px);
+				font-weight: 400;
+				color:white;
+				//padding-top:6px;
+				///margin:0 5px;
+				//vertical-align: top;
+				display: inline-block;
+					margin-top: 0px;
+
+				}
+			
+	&.mail{
+		position: absolute;
+		bottom: 10px;
+		right:15px;
+		width:32px;
+		img{
+			position: static
+		}
+	}
+
+
+
+}
+
+
+
+	}

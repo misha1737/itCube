@@ -1,0 +1,30 @@
+#cbform { width: 100%; }
+
+.noshow { display: none;  }
+
+.cbclear { clear: both; } 
+.cbclearleft { clear: left;}
+
+.cbleft { float: left; text-align: right; width: 85px;}
+.cbright { background-color: #316594; color: #FFFFFF; font-size: 14px; margin-bottom: 6px; margin-left: 5px; padding: 2px 0 2px 2px; width: 400px; }
+.cbrightV { background-color: #316594; color: #FFFFFF; font-size: 14px; margin-bottom: 6px; margin-left: 90px; padding: 2px 0 2px 2px; width: 400px; }
+#cbform textarea { font-size: 14px; height: 100px; margin-left: 5px; width: 400px; }
+
+.cbcaptcha { padding-left: 90px; width: 400px; float: left; }
+ #cbform .cbcaptcha .cbcaptchaimg { float: left; margin-top: 0px; margin-bottom: 5px; width: 170px; }
+.cbcaptcha_label { font-size: 16px; width: 390px; float: left; margin-top: 5px; }
+.cbcaptcha_input { background-color: #316594; color: #FFFFFF; float: left; font-size:20px; margin-left: 5px; margin-top: 3px; text-align: center; width: 90px; }
+.cbcaptcha_write { font-size: 12px; font-style: italic; margin-left: 175px; margin-top: -6px; position: absolute; }
+
+.cbreload { float: left; font-size: 18px; margin-left: 5px; margin-top: 1px; width: 100px; }
+.cbreload_label { font-size: 10px; font-style: italic; }
+
+.cbpadleft { margin-top: 11px; padding-left: 90px; }
+
+#cbform .cbcheck { margin-left: 15px; vertical-align: middle; }
+
+.cbsend { font-size: 18px; margin-left: 2px; width: 75px; }
+
+.msgshw { margin-bottom: 10px; }
+
+
