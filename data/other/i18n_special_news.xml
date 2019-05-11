@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <specialpage><name>news</name><title><![CDATA[News]]></title><parent>novini</parent><tags><![CDATA[news]]></tags><slug>news-%Y%m%d-%H%M</slug><template><![CDATA[template.php]]></template><menu>0</menu><headercomponent></headercomponent><searchcomponent><![CDATA[<a href="<?php get_special_field('link','',false); ?>">
-<h3><?php get_special_field('title','',false); ?></h3>
 <?php get_special_field_image('name', '', '', ''); ?>
+<h3><?php get_special_field('title','',false); ?></h3>
 <p><?php get_special_field_excerpt('content', $numWords); ?>...</p>
 </a>
 <h6><?php get_special_field('date','','',false); ?></h6>

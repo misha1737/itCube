@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<specialpage><name>consulting</name><title><![CDATA[consulting]]></title><parent>consulting</parent><tags><![CDATA[consulting]]></tags><slug>consulting-%Y%m%d-%H%M</slug><template><![CDATA[template.php]]></template><menu>0</menu><headercomponent></headercomponent><defaultcontent><![CDATA[]]></defaultcontent><fields/></specialpage>
+<specialpage><name>consulting</name><title><![CDATA[consulting]]></title><parent>consulting</parent><tags><![CDATA[consulting]]></tags><slug>consulting-%Y%m%d-%H%M</slug><template><![CDATA[template.php]]></template><menu>0</menu><headercomponent></headercomponent><searchcomponent><![CDATA[<h3><?php get_special_field('title','',false); ?></h3>
+
+<p><?php get_special_field_excerpt('content', $numWords); ?>...</p>
+
+<a href="<?php get_special_field('link','',false); ?>">
+Більше
+</a>
+
+
+]]></searchcomponent><defaultcontent><![CDATA[]]></defaultcontent><fields/></specialpage>

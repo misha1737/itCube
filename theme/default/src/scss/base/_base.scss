@@ -6,3 +6,39 @@ span.star{
 body.window{
 	margin:0;
 }
+
+#mobileMenu{
+
+	position:fixed;
+	z-index: 50;
+	cursor:pointer;
+	right:20px;
+	color:white;
+	background-color: $blue;
+	width:45px;
+	height:45px;
+	display:flex;
+	justify-content: center;
+	align-self: center;
+	border-radius: 50%;
+	display:none;
+	top:50px;
+	.glyphicon{
+		width:24px;
+		height:24px;
+		font-size: 24px;
+		margin-top: 10px;
+		//display:inline-block;
+	}
+}
+
+
+
+@media only screen and (max-width : 768px){
+
+#mobileMenu{
+	display:flex;
+}
+
+
+}

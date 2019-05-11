@@ -38,6 +38,17 @@
 <div class=" head ">
 				
 				<header>
+
+
+					<div id="mobileMenu">
+						<span class="glyphicon glyphicon-menu-hamburger"></span>
+					</div>
+					<div class="modalMenu disablet">
+							<?php get_i18n_navigation(return_page_slug(),0,99, I18N_SHOW_MENU); ?>
+
+
+					</div>
+
 				<div class="container relbox">
 					<div class="row"></div>
 					<div class="col-sm-6 col-md-4">
@@ -46,9 +57,11 @@
 							
 								<div class="phone contactsMobile"><img src="images/phoneIT.svg" alt=""> <h5>+38 044 733 73 73</h5></div>
 								<div class="mail contactsMobile"><a href="mailto:Polyanovsky@it-cube.com.ua"><img src="images/mailIT.svg" alt=""><a/>
-							
-
-						</div>
+									<div class="faceBook"><a href="#"><img src="images/faceBookIT.svg" alt=""></a></div>
+						<div class="youtube"><a href="#"><img src="images/youtubeIT.svg" alt=""></a></div>
+								</div>
+								
+								
 					</div>
 					<div class="contacts ">
 						<div class="phone"><img src="images/phoneIT.svg" alt=""> <h5>+38 044 733 73 73</h5></div>
@@ -75,9 +88,9 @@
 					<div class="headBaner">
 						<h1>SMART IT<br> РІШЕННЯ</h1>
 						<p>Нам цікаво реалізовувати нові проекти, вирішувати
-складні задачі в сфері інформаційних технологій. 
+складні задачі в сфері інформаційних технологій.<br><br>
 Ми виконали достатньо велику кількість замовлень 
-та підтримуємо тривалі відносини у співпраці з нашими клієнтами.  </p>
+та підтримуємо тривалі відносини у співпраці з нашими клієнтами.</p>
 						<img src="images/Header_site.jpg" alt="" class="img-responsive aboutImg pcH">
 						<img src="images/mobile.jpg" alt="" class="img-responsive aboutImg mobileH">
 						<img src="images/mobile.jpg" alt="" class="img-responsive aboutImg mobileHH" style="opacity: 0">

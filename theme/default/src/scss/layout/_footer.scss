@@ -1,8 +1,9 @@
 footer{
+
 		background-color: $dBlue;
 	//position: absolute;
 	bottom:0;
-	height:100px;
+	min-height:100px;
 		display:flex;
 		justify-content:center;
 		align-items: center;
@@ -16,12 +17,39 @@ footer{
 			    line-height: 24px;
     vertical-align: top;
 		}
+
+		.footerBox{
+			overflow: hidden;
+			padding:20px 0;
+			display:flex;
+			justify-content: space-between;
+			align-self:center;
+			.linkBlock{
+				display:flex;
+				flex-direction: column;
+				a{
+					color:white;
+				}
+				a.mainLink{
+					text-transform: uppercase;
+					margin-bottom: 10px;
+				}
+			}
+		}
+
 		img{
 			display: inline-block;
+		}
+		img.brain{
+			position: absolute;
+			height:100px;
+			padding: 0;
 		}
 		.footerIMG{
 			display: inline-block;
 			float:right;
+			position: relative;
+			width:100px;
 			img.brain{
 				float: right;
 				//position: absolute;
@@ -31,45 +59,54 @@ footer{
 		}
 		.footerLogo{
 
-
-			display: inline-block;
+			display:flex;
+			//display: inline-block;
+			flex-direction: row;
+			justify-content: center;
 			img{
 				width:64px;
 			}
 			h4{
 			top:0;
-			margin-left: 80px;
+			margin-top: 50px;
 			@include text(20px);
 			color: white;
+			//height:20px;
+			margin-left: 15px;
 			display:block;
-			margin-top: -50px;
+			//margin-top: -50px;
 			//line-height: 64px;
 			}
-				
-					h4.mobileNumber{
-						display:none;
-					}
-				
 		}
 	}
 		
+
+@media only screen and (max-width : 1000px){
 	footer{
-			.contacts{
-			float:right;
-
-			.phone, .mail{
-
-				@include text(26px);
-				font-weight: 400;
-				padding-top:6px;
-				margin:0 5px;
-				vertical-align: top;
-				display: inline-block;
-					margin-top: 10px;
-				img{
-					height:24px;
-				}
-			}
-
+		.footerIMG {
+		display:none;
 		}
 	}
+
+}
+
+@media only screen and (max-width : 768px){
+footer{
+	height:auto;
+	.footerLogo{
+		display: flex !important;
+		flex-direction: row;
+	}
+	.footerBox{
+		//display:none;
+		flex-direction: column;
+	.linkBlock{
+		text-align: center;
+		margin-top: 15px;
+		a{
+			margin:5px;
+		}
+	}
+}	
+}
+}

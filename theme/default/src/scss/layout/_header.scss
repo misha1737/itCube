@@ -37,6 +37,7 @@
 			}
 
 		}
+		//contactsMobile
 		.languageBlock{
 			//width:100%;
 			position: absolute;
@@ -88,11 +89,53 @@
 		position: absolute;
 
 		right: 20%;
-		top:30%;
+		top:10%;
 	
 		display:inline-block;
 
 
+	}
+	p{
+		text-align: right;
+		width:320px;
+		@include text(14px);
+		color:white;
+		position: absolute;
+		line-height: 24px;
+		right: 20%;
+		top:50%;
+	
+		display:inline-block;
+	}
+}
+
+.modalMenu{
+	top:0;
+	display:flex;
+	flex-direction: column;
+
+	justify-content: center;
+	align-self: center;
+	position: fixed;
+	width:100%;
+	background-color: white;
+	height:100vh;
+	z-index: 49;
+	text-align: center;
+	list-style:	none;
+	
+			
+		li{
+			padding:15px;
+			a{
+				@include text(25px);
+				text-transform: uppercase;
+
+			}
+		//	padding-top: 10vh;
+		}
+	&.disablet{
+		display:none;
 	}
 }
 
@@ -105,7 +148,6 @@
 	li{
 		list-style: none;
 		margin:20px 20px;
-		
 		a{
 			transition: 0.5s;
 			@include text(14px);
@@ -122,3 +164,33 @@
 
 	}
 
+@media only screen and (max-width : 1200px){
+
+	header{
+		.headBaner{
+			h1{
+				top:0;
+				font-size: 48px;
+				width:480px;
+				text-align: right;
+			}
+			p{
+				top:40%;
+				width:480px;
+
+			}
+		}
+
+
+
+	}
+
+
+}
+@media only screen and (max-width : 768px){
+	header  .languageBlock{
+		bottom:-25px;
+	}
+
+
+}

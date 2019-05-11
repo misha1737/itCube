@@ -1,55 +1,57 @@
 <div class="container">
 	<div class="row">
 		<h3>Переваги</h3>
-		<a class="perevagaBox" href=""> </a>
+		
+		<div class="perevagiBox">
+			
+			<div class="perevagaBox">
+				<a href="#" class="perevagaIcon"><i class="fa fa-tty" aria-hidden="true"></i> </a>
+				 <a href="#" class="perevagatext">Перевага 1</a>
+			</div>
 
-		<div class="perevagaIcon"><a class="perevagaBox" href=""><i aria-hidden="true" class="fa fa-tty"></i> </a></div>
-		<a class="perevagaBox" href=""> </a>
+			<div class="perevagaBox">
+				<a href="#" class="perevagaIcon"><i class="fa fa-book" aria-hidden="true"></i> </a>
+				<a href="#" class="perevagatext">Перевага 2</a>
+			</div>
 
-		<div class="perevagaText"><a class="perevagaBox" href="">перевага 1 </a></div>
-		<a class="perevagaBox" href=""> </a> <a class="perevagaBox" href=""> </a>
+			<div class="perevagaBox">
+				<a href="#"class="perevagaIcon"><i class="fa fa-clock-o" aria-hidden="true"></i> </a>
+				 <a href="#" class="perevagatext">Перевага 3</a>
+			</div>
 
-		<div class="perevagaIcon"><a class="perevagaBox" href=""><i aria-hidden="true" class="fa fa-book"></i> </a></div>
-		<a class="perevagaBox" href=""> </a>
+			<div class="perevagaBox">
+				<a href="#" class="perevagaIcon"><i class="fa fa-search" aria-hidden="true"></i> </a>
+				<a href="#" class="perevagatext">Перевага 4</a>
+			</div>
 
-		<div class="perevagaText"><a class="perevagaBox" href="">перевага 2 </a></div>
-		<a class="perevagaBox" href=""> </a> <a class="perevagaBox" href=""> </a>
+			<div class="perevagaBox">
+				<a href="#" class="perevagaIcon"><i class="fa fa-mobile" aria-hidden="true"></i> </a>
+				<a href="#" class="perevagatext">Перевага 5</a>
+			</div>
 
-		<div class="perevagaIcon"><a class="perevagaBox" href=""><i aria-hidden="true" class="fa fa-clock-o"></i> </a></div>
-		<a class="perevagaBox" href=""> </a>
+			<div class="perevagaBox">
+				<a href="#" class="perevagaIcon"><i class="fa fa-exchange" aria-hidden="true"></i> </a>
+				<a href="#" class="perevagatext">Перевага 6</a>
+			</div>
 
-		<div class="perevagaText"><a class="perevagaBox" href="">перевага 3 </a></div>
-		<a class="perevagaBox" href=""> </a> <a class="perevagaBox" href=""> </a>
+			<div class="perevagaBox">
+				<a href="#" class="perevagaIcon"><i class="fa fa-lock" aria-hidden="true"></i> </a>
+				<a href="#" class="perevagatext">Перевага 7</a>
+			</div>
 
-		<div class="perevagaIcon"><a class="perevagaBox" href=""><i aria-hidden="true" class="fa fa-search"></i> </a></div>
-		<a class="perevagaBox" href=""> </a>
 
-		<div class="perevagaText"><a class="perevagaBox" href="">перевага 4 </a></div>
-		<a class="perevagaBox" href=""> </a> <a class="perevagaBox" href=""> </a>
-
-		<div class="perevagaIcon"><a class="perevagaBox" href=""><i aria-hidden="true" class="fa fa-mobile"></i> </a></div>
-		<a class="perevagaBox" href=""> </a>
-
-		<div class="perevagaText"><a class="perevagaBox" href="">перевага 5 </a></div>
-		<a class="perevagaBox" href=""> </a> <a class="perevagaBox" href=""> </a>
-
-		<div class="perevagaIcon"><a class="perevagaBox" href=""><i aria-hidden="true" class="fa fa-exchange"></i> </a></div>
-		<a class="perevagaBox" href=""> </a>
-
-		<div class="perevagaText"><a class="perevagaBox" href="">перевага 6 </a></div>
-		<a class="perevagaBox" href=""> </a> <a class="perevagaBox" href=""> </a>
-
-		<div class="perevagaIcon"><a class="perevagaBox" href=""><i aria-hidden="true" class="fa fa-lock"></i> </a></div>
-		<a class="perevagaBox" href=""> </a>
-
-		<div class="perevagaText"><a class="perevagaBox" href="">перевага 7 </a></div>
-		<a class="perevagaBox" href=""> </a>
-
-		<h3>Новини</h3>
+		</div>
+	</div>
+</div>
+<h3 class="newsBg">Новини</h3>
+	<div class="newsBlock">
+		
+	
 		(% searchresults HEADER:'' live=1 showTags=1 lang="ua" minTagSize=90 max=100&nbsp;maxTagSize=200 order=+menuOrder addTags="news" "%)
-
+	</div>
 		<h3>Консалтинг</h3>
+	<div class="consaltingBlock">
+	
 
 		<p>(% searchresults HEADER:'' live=1 showTags=1 lang="ua" minTagSize=90 max=100&nbsp;maxTagSize=200 order=+menuOrder addTags="consulting" "%)</p>
 	</div>
-</div>

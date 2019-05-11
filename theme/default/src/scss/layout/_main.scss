@@ -1,63 +1,201 @@
 body{
 	background-color: #e9f5fd;
 	article{margin: 15px 0;
-		min-height: 100vh;
-
-
-
+		min-height: 600px;
 		h1{
 		display:none;
+		}
 	}
-
-
-
-
-
-	}
-
-		
-	
 	img.mobileH, img.mobileHH{
 		display:none;
 	}
 	.container-fluid{
-		padding:0;
-		
+		padding:0;	
 		.head{
 				padding-bottom:30px;
-
-			//border-bottom: 1px solid gray;
 		}
 	}
-
-
-
-
-
-
-
 	h3{
+		display:block;
 		@include text(24px);
 		text-align: center;
+		text-transform: uppercase;
+		color:$lBlue;
+
+
 	}p{
 		@include text(18px);
 		margin-top: 18px;
 	}
 
-
-
-
 	span .star{
 		font-size: 14px;
 	}
 
+
+.perevagiBox{
+
+	display:flex;
+	justify-content: space-between;
+		.perevagaBox{
+			margin:15px 0px;
+
+			.perevagaIcon{
+				background-color: $lBlue;
+				color:white;
+				width:64px;
+				height:64px;
+				border-radius: 50%;
+				display:flex;
+				justify-content: center;
+				align-items: center;
+				transition: 0.5s;
+				margin:auto;
+				text-decoration: none;
+				&:hover{
+					background-color: $red;
+					cursor:pointer;
+				};
+				i{
+
+					text-align: center;
+					font-size: 32px;
+					//display:none;
+				}
+			}
+			.perevagatext{
+				//margin-top: 10px;
+				display:block;
+				@include text(16px);
+				text-align: center;
+				padding:10px 0px;
+				text-transform: uppercase;
+				text-decoration: none;
+				&:hover{
+					color:$red;
+				};
+			}
+
+		}
 }
+
+}
+h3.newsBg{
+	background-color: $llBlue;
+	padding: 20px;
+	margin-bottom: -40px;
+
+}
+
+.newsBlock{
+
+	background: $llBlue;
+	display:flex;
+	padding:20px;
+	#search-results-live{
+		display:flex;
+		overflow-x:hidden;
+
+		.search-entry{
+				background-color: rgba(255,255,255,0.4);
+				list-style: none;
+			//width:10px;
+			//display:inline-block;
+			min-width:320px;
+			margin:15px 15px;
+			transition: 0.5s;
+				&:hover{
+					background-color: rgba(255,255,255,0.8);
+				}
+					;
+			a{
+				h3{
+	
+					@include text(14px);
+					color:$blue;
+					text-align: left;
+					font-weight: 700;
+				}
+				img{
+					width:80px;
+					border-radius:50%;
+					margin:10px;
+					float:left;
+				}
+				p{
+					@include text(12px);
+					margin:5px;
+				}
+				text-decoration: none;
+
+			}
+				h6{
+					display:none;
+				}
+		}
+	}
+}
+
+
+
+.consaltingBlock{
+
+	display:flex;
+
+	#search-results-live{
+
+		display:flex;
+		overflow-x:scroll;
+		margin:15px 0px;
+
+		.search-entry{
+		//background-color: red;
+			background-color: $llBlue;
+		min-width:320px;
+			margin:15px 15px;
+			transition: 0.5s;
+			list-style:none;
+		}
+		h3{
+			@include text(14px);
+			font-weight: 700;	
+			color: $blue;
+		}	
+		p{
+			@include text(12px);
+			padding:5px 15px;	
+			margin:0;
+		}
+		a{
+
+			text-align: center;
+			    width: 100px;
+			    margin:auto;
+		    //height: 20px;
+		    display: block;
+		    background-color: $red;
+		    @include text(14px);
+		    text-decoration: none;
+		    text-transform: uppercase;
+		    padding:5px;
+		    color:white;
+		   margin-bottom: -12px;
+		}
+	}
+	
+
+}
+
+
+
+
+
+
+
 .mobileBlock{
 	display:none;
 }
-
 @media only screen and (max-width : 768px){
-
 		body{
 			.head h4{
 				margin-left: 0;
@@ -89,8 +227,13 @@ body{
 					display:none;
 				}
 			
+	
+
+
+
 			.contactsMobile{
-				display: inline-block;
+				
+
 					
 				@include text(26px);
 				font-weight: 400;
@@ -107,22 +250,28 @@ body{
 					display:none;
 				}
 				&.mail img{
-					position: absolute;
+				//	position: absolute;
 					top:5px;
 					right:5px;
 				}
+			}
+					.mail.contactsMobile{
+					display:flex;
+				float:right;
+				justify-content: flex-end;
+
 
 
 			}
-
 			}
 .headBaner{
 	position: relative;
+	margin-top: 50px;
 	h1{
 		width:100%;
-		height:60px;
+		//height:60px;
 		@include text(44px);
-		font-weight: 900;
+		//font-weight: 900;
 		color:white;
 		position: static;
 		text-align: center;
@@ -131,15 +280,41 @@ body{
 		background-color: black;
 		padding-top: 30px;
 		display:block;
-
-
+		z-index: 10;
 	}
+	p{
+		text-align: center;
+		width:320px;
+		padding:0 30px;
+		right:0;
+		left:0;
+		margin:auto;
+		z-index: 10;
+		text-shadow: 1px 2px 5px black;
+		
+	}
+	img.mobileH{
+		z-index: 0;
+
+		}
+
+}
+	ul.menu{
+		display:none ;
+	}
+
+.perevagiBox{
+
+	display:flex;
+	flex-direction: column;
+	//justify-content: space-between;
+
 }
 article{
 	padding:15px;
 }
 footer{
-		height:80px;
+		//height:80px;
 			.contacts{
 			float:right;
 
@@ -154,16 +329,12 @@ footer{
 					margin-top: 30px;
 				}
 			}
-
-			
-	
-
 		.footerLogo{
 
 			display: inline-block;
 			img{
 			width:64px;
-			position: absolute;
+			//position: absolute;
 			left:15px;
 			bottom:10px;
 			}
@@ -185,8 +356,6 @@ footer{
 						display:inline-block;
 						font-size:14px;
 			}
-				
-		
 		.mobileBlock{
 			img{
 				left:2px;
@@ -203,24 +372,14 @@ footer{
 .contacts{
 	display:none;
 }
-		
-
-
 		.footerIMG{
 				
 					img.brain{
 						display:none;
 					}
 				}
-
-
 				}
-
-
-
 		}
-
-
 .mobileBlock{
 	display:inline-block;
 
@@ -248,9 +407,21 @@ footer{
 	}
 
 
+}
 
 }
 
-
-
+@media only screen and (max-width : 500px){
+	header{
+		.mail.contactsMobile{
+			justify-content: center !important;
+			float:none !important;
+		}
+		.languageBlock{
+			text-align: center;
+			position: static;
+		}
 	}
+
+
+}
