@@ -83,19 +83,19 @@ body{
 h3.newsBg{
 	background-color: $llBlue;
 	padding: 20px;
-	margin-bottom: -40px;
+	margin-bottom: 0px;
 
 }
 
 .newsBlock{
-
+	position: relative;
 	background: $llBlue;
 	display:flex;
-	padding:20px;
+	padding:20px 0;
 	#search-results-live{
 		display:flex;
-		overflow-x:hidden;
-
+		overflow:hidden;
+		margin-bottom: 0;
 		.search-entry{
 				background-color: rgba(255,255,255,0.4);
 				list-style: none;
@@ -139,15 +139,15 @@ h3.newsBg{
 
 
 .consaltingBlock{
-
+	position: relative;
 	display:flex;
 
 	#search-results-live{
-
+		
 		display:flex;
-		overflow-x:scroll;
+		overflow:hidden;
 		margin:15px 0px;
-
+		//margin-bottom: 0;
 		.search-entry{
 		//background-color: red;
 			background-color: $llBlue;
@@ -188,7 +188,43 @@ h3.newsBg{
 
 
 
+#leftArrov{
+	position: absolute;
+	height:100%;
+	width:50px;
+	background-color: yellow;
+	left:0;
+	top:0;
+	cursor:pointer;
+	transition: 0.5s;
+	//background-src: ;: 
+	background: url(../../images/arrow_left.png);
+	    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    opacity:0.2;
+    &:hover{
+		opacity:0.7;
+    };
+}
+#rightArrov{
+	position: absolute;
+	height:100%;
+	width:50px;
+	transition: 0.5s;
+	right:0;
+	top:0;
+	cursor:pointer;
+	background: url(../../images/arrow_right.png);
+	    background-repeat: no-repeat;
 
+    background-position: center;
+    background-color: white;
+      opacity:0.2;
+        &:hover{
+		opacity:0.7;
+    };
+}
 
 
 
@@ -326,7 +362,7 @@ footer{
 				margin:0 5px;
 				vertical-align: top;
 				display: inline-block;
-					margin-top: 30px;
+				margin-top: 30px;
 				}
 			}
 		.footerLogo{

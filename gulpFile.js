@@ -46,7 +46,7 @@ browserSync.init({
 	proxy: url
 	});
 	gulp.watch('./theme/'+themeName+'/src/scss/**/*.scss', styles);
-	gulp.watch('./theme/'+themeName+'/js/**/*.js', scripts);
+	gulp.watch('./theme/'+themeName+'/src/js/**/*.js', scripts);
 	gulp.watch('./**/*.html').on('change',browserSync.reload);
   gulp.watch('./**/*.php').on('change',browserSync.reload);
    gulp.watch('./**/*.xml').on('change',browserSync.reload);

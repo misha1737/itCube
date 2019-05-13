@@ -31,7 +31,14 @@ body.window{
 		//display:inline-block;
 	}
 }
-
+article.content{
+	h1{
+		text-align: center;
+		display:block;
+	}
+	width:1000px;
+	margin:auto;
+}
 
 
 @media only screen and (max-width : 768px){
@@ -40,5 +47,9 @@ body.window{
 	display:flex;
 }
 
+article.content{
+	width:95%;
+	margin:auto;
+}
 
 }

@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Tue, 07 May 2019 12:37:56 +0300</pubDate><title><![CDATA[Про нас]]></title><url><![CDATA[index]]></url><meta><![CDATA[getsimple, easy, content management system]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Готовна]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;div class=&quot;container&quot;&gt;
+<item><pubDate>Mon, 13 May 2019 10:34:22 +0300</pubDate><title><![CDATA[Про нас]]></title><url><![CDATA[index]]></url><meta><![CDATA[getsimple, easy, content management system]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Про нас]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;div class=&quot;container&quot;&gt;
 	&lt;div class=&quot;row&quot;&gt;
-		&lt;h3&gt;Привіт. Все працює&lt;/h3&gt;
+		&lt;h3&gt;Переваги&lt;/h3&gt;
+
+		&lt;div class=&quot;perevagiBox&quot;&gt;
+			&lt;div class=&quot;perevagaBox&quot;&gt;&lt;a class=&quot;perevagaIcon&quot; href=&quot;#&quot;&gt;&lt;i aria-hidden=&quot;true&quot; class=&quot;fa fa-tty&quot;&gt;&lt;/i&gt; &lt;/a&gt; &lt;a class=&quot;perevagatext&quot; href=&quot;#&quot;&gt;Перевага 1&lt;/a&gt;&lt;/div&gt;
+
+			&lt;div class=&quot;perevagaBox&quot;&gt;&lt;a class=&quot;perevagaIcon&quot; href=&quot;#&quot;&gt;&lt;i aria-hidden=&quot;true&quot; class=&quot;fa fa-book&quot;&gt;&lt;/i&gt; &lt;/a&gt; &lt;a class=&quot;perevagatext&quot; href=&quot;#&quot;&gt;Перевага 2&lt;/a&gt;&lt;/div&gt;
+
+			&lt;div class=&quot;perevagaBox&quot;&gt;&lt;a class=&quot;perevagaIcon&quot; href=&quot;#&quot;&gt;&lt;i aria-hidden=&quot;true&quot; class=&quot;fa fa-clock-o&quot;&gt;&lt;/i&gt; &lt;/a&gt; &lt;a class=&quot;perevagatext&quot; href=&quot;#&quot;&gt;Перевага 3&lt;/a&gt;&lt;/div&gt;
+
+			&lt;div class=&quot;perevagaBox&quot;&gt;&lt;a class=&quot;perevagaIcon&quot; href=&quot;#&quot;&gt;&lt;i aria-hidden=&quot;true&quot; class=&quot;fa fa-search&quot;&gt;&lt;/i&gt; &lt;/a&gt; &lt;a class=&quot;perevagatext&quot; href=&quot;#&quot;&gt;Перевага 4&lt;/a&gt;&lt;/div&gt;
+
+			&lt;div class=&quot;perevagaBox&quot;&gt;&lt;a class=&quot;perevagaIcon&quot; href=&quot;#&quot;&gt;&lt;i aria-hidden=&quot;true&quot; class=&quot;fa fa-mobile&quot;&gt;&lt;/i&gt; &lt;/a&gt; &lt;a class=&quot;perevagatext&quot; href=&quot;#&quot;&gt;Перевага 5&lt;/a&gt;&lt;/div&gt;
+
+			&lt;div class=&quot;perevagaBox&quot;&gt;&lt;a class=&quot;perevagaIcon&quot; href=&quot;#&quot;&gt;&lt;i aria-hidden=&quot;true&quot; class=&quot;fa fa-exchange&quot;&gt;&lt;/i&gt; &lt;/a&gt; &lt;a class=&quot;perevagatext&quot; href=&quot;#&quot;&gt;Перевага 6&lt;/a&gt;&lt;/div&gt;
+
+			&lt;div class=&quot;perevagaBox&quot;&gt;&lt;a class=&quot;perevagaIcon&quot; href=&quot;#&quot;&gt;&lt;i aria-hidden=&quot;true&quot; class=&quot;fa fa-lock&quot;&gt;&lt;/i&gt; &lt;/a&gt; &lt;a class=&quot;perevagatext&quot; href=&quot;#&quot;&gt;Перевага 7&lt;/a&gt;&lt;/div&gt;
+		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
-]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author><menuOrder><![CDATA[4]]></menuOrder></item>
+
+&lt;h3 class=&quot;newsBg&quot;&gt;Новини&lt;/h3&gt;
+
+&lt;div class=&quot;newsBlock&quot;&gt;(% searchresults HEADER:&#039;&#039; live=1 showTags=1 lang=&quot;ua&quot; minTagSize=90 max=100&amp;nbsp;maxTagSize=200 order=+menuOrder addTags=&quot;news&quot; lang=&quot;ua&quot; &quot;%)&lt;/div&gt;
+
+&lt;h3&gt;Консалтинг&lt;/h3&gt;
+
+&lt;div class=&quot;consaltingBlock&quot;&gt;
+	&lt;p&gt;(% searchresults HEADER:&#039;&#039; live=1 showTags=1 lang=&quot;ua&quot; minTagSize=90 max=100&amp;nbsp;maxTagSize=200 order=+menuOrder addTags=&quot;consulting&quot; &quot;%)&lt;/p&gt;
+&lt;/div&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate>Wed, 08 May 2019 10:08:02 +0300</creDate><user><![CDATA[admin]]></user><menuOrder><![CDATA[8]]></menuOrder></item>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Mon, 13 May 2019 10:26:23 +0300</pubDate><title><![CDATA[Контакти]]></title><url><![CDATA[kontakti]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Контакти]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;div class=&quot;container&quot;&gt;
+	&lt;div class=&quot;row contactBlock&quot;&gt;
+		&lt;div class=&quot;col-md-12&quot;&gt;
+			&lt;ul&gt;
+				&lt;li class=&quot;col-md-10&quot;&gt;
+					&lt;h4&gt;&lt;i class=&quot;fa fa-map-marker pr-10&quot;&gt;&lt;/i&gt;Адрес&lt;/h4&gt;
+
+					&lt;p&gt;Украина, Киев, район м. Печерская, ул. Е. Коновальца, 32г&lt;/p&gt;
+				&lt;/li&gt;
+				&lt;li class=&quot;col-md-10&quot;&gt;
+					&lt;h4&gt;&lt;i class=&quot;fa fa fa-envelope-o pr-10&quot;&gt;&lt;/i&gt;Почта&lt;/h4&gt;
+
+					&lt;p&gt;k.bushev@constanta-hotels.com.ua&lt;/p&gt;
+				&lt;/li&gt;
+				&lt;li class=&quot;col-md-10&quot;&gt;
+					&lt;h4&gt;&lt;i aria-hidden=&quot;true&quot; class=&quot;fa fa-phone&quot;&gt;&lt;/i&gt;Телефон&lt;/h4&gt;
+
+					&lt;p&gt;+38 0 800 033 71 51&lt;/p&gt;
+				&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;row mapBlock&quot;&gt;
+		&lt;div class=&quot;col-md-12&quot;&gt;
+			&lt;p style=&quot;text-align: right;&quot;&gt;&lt;iframe allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;200&quot; src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2137.4345547446756!2d30.53026851376952!3d50.425221958204716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf10f50cf77d%3A0xf6b673dfefda8f86!2zMzJHLCDQstGD0LvQuNGG0Y8g0ITQstCz0LXQvdCwINCa0L7QvdC-0LLQsNC70YzRhtGPLCAzMtCTLCDQmtC40ZfQsg!5e0!3m2!1sru!2sua!4v1508933872903&quot; style=&quot;border:0&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;main_form&quot;&gt;
+		&lt;h4&gt;Оставьте ваше сообщение&lt;/h4&gt;
+
+		&lt;form action=&quot;http://formspree.io/k.bushev@constanta-hotels.com.ua&quot; id=&quot;application&quot; method=&quot;POST&quot; name=&quot;application&quot;&gt;
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;item&quot;&gt;
+				&lt;div class=&quot;form-group&quot;&gt;&lt;label for=&quot;&quot;&gt;Ваше имя:&lt;/label&gt; &lt;input class=&quot;form-control&quot; name=&quot;name&quot; placeholder=&quot;Введите имя&quot; type=&quot;text&quot; /&gt;&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;item&quot;&gt;
+				&lt;div class=&quot;form-group&quot;&gt;&lt;label for=&quot;&quot;&gt;Email&lt;/label&gt; &lt;input class=&quot;form-control&quot; name=&quot;email&quot; placeholder=&quot;Введите Ваш E-mail&quot; type=&quot;email&quot; /&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;form-group&quot;&gt;&lt;label for=&quot;&quot;&gt;Ваше сообщение:&lt;/label&gt;&lt;textarea id=&quot;&quot; name=&quot;message&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt;&lt;/div&gt;
+		&lt;button&gt;Отправить&lt;/button&gt;&lt;/form&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author><menuOrder><![CDATA[5]]></menuOrder><creDate>Tue, 07 May 2019 12:40:20 +0300</creDate><user><![CDATA[admin]]></user></item>

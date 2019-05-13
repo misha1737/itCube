@@ -367,7 +367,7 @@
 			"file": "theme/default/src/scss/base/_base.scss",
 			"settings":
 			{
-				"buffer_size": 545,
+				"buffer_size": 543,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -376,7 +376,7 @@
 			"file": "theme/default/src/scss/layout/_header.scss",
 			"settings":
 			{
-				"buffer_size": 2544,
+				"buffer_size": 2545,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -400,10 +400,19 @@
 			}
 		},
 		{
-			"file": "theme/default/src/js/main.js",
+			"file": "theme/default/src/scss/layout/_main.scss",
 			"settings":
 			{
-				"buffer_size": 218,
+				"buffer_size": 5849,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/wamp/www/www.aspirin-adv.com.ua/theme/aspirin/libs/main.js",
+			"settings":
+			{
+				"buffer_size": 10187,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -412,7 +421,7 @@
 			"file": "theme/default/build/js/all.js",
 			"settings":
 			{
-				"buffer_size": 264,
+				"buffer_size": 442,
 				"line_ending": "Windows"
 			}
 		},
@@ -465,12 +474,13 @@
 		"/D/OpenServer/OpenServer/domains/it-cube.com.ua",
 		"/D/OpenServer/OpenServer/domains/it-cube.com.ua/theme",
 		"/D/OpenServer/OpenServer/domains/it-cube.com.ua/theme/default",
-		"/D/OpenServer/OpenServer/domains/it-cube.com.ua/theme/default/build",
-		"/D/OpenServer/OpenServer/domains/it-cube.com.ua/theme/default/build/js",
-		"/D/OpenServer/OpenServer/domains/it-cube.com.ua/theme/default/src"
+		"/D/OpenServer/OpenServer/domains/it-cube.com.ua/theme/default/src",
+		"/D/OpenServer/OpenServer/domains/it-cube.com.ua/theme/default/src/scss",
+		"/D/OpenServer/OpenServer/domains/it-cube.com.ua/theme/default/src/scss/layout"
 	],
 	"file_history":
 	[
+		"/D/OpenServer/OpenServer/domains/it-cube.com.ua/theme/default/src/js/main.js",
 		"/D/OpenServer/OpenServer/domains/it-cube.com.ua/theme/default/src/scss/base/_mixins.scss",
 		"/D/OpenServer/OpenServer/domains/it-cube.com.ua/theme/default/src/scss/layout/_index.scss",
 		"/D/OpenServer/OpenServer/domains/it-cube.com.ua/theme/default/src/scss/base/_animation.scss",
@@ -597,12 +607,11 @@
 		"/D/wamp/www/4build.com.ua/theme/forbuild/header.inc.php",
 		"/D/wamp/www/LMtas/libs/common.js",
 		"/D/wamp/www/LMtas/uploadfiles.js",
-		"/D/wamp/www/constanta.com.ua/theme/constanta/main.php",
-		"/D/wamp/www/www.aspirin-adv.com.ua/theme/aspirin/header.inc.php"
+		"/D/wamp/www/constanta.com.ua/theme/constanta/main.php"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -638,7 +647,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -647,15 +656,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 545,
+						"buffer_size": 543,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								427,
-								427
+								537,
+								537
 							]
 						],
 						"settings":
@@ -663,10 +672,10 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 96.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -675,15 +684,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2544,
+						"buffer_size": 2545,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1923,
-								1923
+								2434,
+								2434
 							]
 						],
 						"settings":
@@ -692,10 +701,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1728.0,
+						"translation.y": 2592.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -721,10 +730,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 528.0,
+						"translation.y": 192.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -758,39 +767,69 @@
 				},
 				{
 					"buffer": 4,
-					"file": "theme/default/src/js/main.js",
+					"file": "theme/default/src/scss/layout/_main.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 218,
+						"buffer_size": 5849,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								218,
-								218
+								2727,
+								2727
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2880.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
+					"file": "/D/wamp/www/www.aspirin-adv.com.ua/theme/aspirin/libs/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8678,
+								8979
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4512.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "theme/default/build/js/all.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 264,
+						"buffer_size": 442,
 						"regions":
 						{
 						},
@@ -809,11 +848,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "theme/default/src/scss/base/_variables.scss",
 					"semi_transient": false,
 					"settings":
@@ -837,7 +876,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]

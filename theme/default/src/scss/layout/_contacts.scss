@@ -1,0 +1,160 @@
+#kontakti{
+	article{
+		.contactBlock{
+	//		margin-top: 10px;
+		//	margin-bottom: 10px;
+		margin-top: 15px;
+			ul{
+				padding:0;
+				li{
+					padding:0;
+				}
+			}
+		}
+		.mapBlock{
+			margin-top: 15px;
+		}
+		
+
+		.pageContent li{
+			display:inline-block;
+			margin-left: 0;
+			padding-left: 0;
+		}
+		.main_form{
+			margin-top: 15px;			
+
+		}
+
+	h4{
+		@include text(16px);
+		height:40px;
+		display: inline-block;
+		float:left;
+		margin:0;
+		margin-right: 10px;
+		padding-top: 8px;
+	}
+	p{	
+		@include text(16px);
+			//height: 60px;
+			margin-top: 5px;
+			margin-bottom: 5px;
+
+	}
+	i{
+		margin-right: 10px;
+		color:$red;
+	}
+	#map{
+		height:400px;
+	}
+	.info{
+		text-align: center;
+		margin: 40px 0;
+	}
+	.contacts{
+
+
+		a{
+			display: inline-block;
+			padding: 0 10px;
+
+		}
+		.itemC{
+			display: inline-block;
+			padding: 15px;
+			color: $blue;
+			i{
+				font-size: 30px;
+			}
+		}
+	}
+	form{
+		label{
+			@include text(16px);
+			color: $black;
+		}
+		input{
+		border: 1px solid #ccc;
+		border-radius: 2px;
+		height: 32px;
+		color: #555;
+		padding: 6px 12px;
+		}
+		textarea{
+		border: 1px solid #ccc;
+		border-radius: 2px;
+		height: 80px;
+		color: #555;
+		padding: 6px 12px;
+		width: 100%;
+		
+		}
+		.item{
+			padding: 0 15px ;
+		}
+		.form-group{
+			padding:0px;
+		}
+	button{
+		@include text(14px);
+	    float: right;
+	    background: #fff;
+	    padding: 10px 40px;
+	    color: $red;
+	    text-transform: uppercase;
+	    text-align: center;
+	    cursor: pointer;
+	    border: 1px solid #cccccc;
+	    border-radius: 0;
+	    margin-bottom: 40px;
+	    &:hover{
+	    	color: #FFF;
+   			background-color: $dBlue;
+	    }
+		}
+
+	}
+	
+		.container{
+			margin-top: 60px;
+			margin-bottom: 60px;
+
+				li{
+				display: inline-block;
+
+			}
+		}
+
+		.main_form {
+				h4{
+				width:100%;
+				text-align: center;
+				height:auto;
+				margin-bottom: 15px;
+			}
+			input{
+				margin-bottom: 20px;
+			}
+		}
+ 
+	}
+}
+@media only screen and (max-width : 1000px){
+	
+	#kontakti{
+		article{
+			h4{
+				float:none;
+				margin-top: 20px;
+				height: auto;
+			}
+			p{
+				height: auto;
+			}
+		}
+	}
+
+
+}

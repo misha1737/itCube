@@ -1,0 +1,171 @@
+#novini{
+
+	#newsBlock{
+
+	}
+}
+
+
+#novini{
+	h1{
+		text-align: center;
+		display:block;
+		}
+	article{
+		#newsBlock{
+			li{
+				min-height: 260px;
+				margin: 0px;
+				   margin-top: 15px;
+    			margin-bottom: 15px;
+    			list-style: none;
+				//border-bottom: 2px solid $gray;
+			}
+			.newsLine{
+				height:1px;
+				width:95%;
+				background-color: $red;
+				position: absolute;
+				bottom:0;
+			}
+			overflow:scroll;
+			height:500px;
+			overflow-y:auto;
+			overflow-x:hidden;
+			&::-webkit-scrollbar{
+ 			 width: 3px;
+			}
+
+			&::-webkit-scrollbar-thumb{
+			  border-width:1px 1px 1px 2px;
+			  border-color: #777;
+			  background-color: $red; /* #aaa  #003366*/
+			}
+			img{
+				float:left;
+				margin-right: 10px;
+				margin-bottom: 25px;
+				width:50%;
+			}
+			li a {
+				text-decoration: none;
+			}
+			li a h3{
+				@include text(14px);
+				font-weight: 500;
+				display: block;
+				margin: 0;
+				min-height: 30px;
+				
+				
+				//margin: 5px 0;
+				//margin-bottom: 15px;
+				//text-transform: uppercase;
+				color: $gray;
+				text-decoration: none;
+				//letter-spacing: .2em;
+				//min-height: 60px;
+			
+			}
+			.newsButton{
+				display:none;
+			}
+			h6{
+				display:inline-block;
+				color:$red;
+			//	position:absolute;
+				left:12px;
+				bottom:8px;
+				margin:0;
+				display: block;
+				margin-top: 8px;
+				margin-bottom: 8px;
+			}
+			p{
+				@include text(12px);
+			//	min-height: 200px;
+				text-align: left;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width : 1200px){
+
+#novini{
+	article{
+		#newsBlock{
+			li{
+
+				min-height: 280px;
+			}
+			//img{
+			//float:none;
+			//min-width: 100%;
+			
+			h6{
+				bottom: 2px;
+			}
+			p{
+				display: inline-block;
+				min-height: 100px;
+			}
+
+		}
+	}
+}
+
+
+}
+
+@media only screen and (max-width : 1000px){
+#novini{
+	article{
+
+#newsBlock{
+			li{
+
+				min-height: 280px;
+			}
+
+
+
+
+}}
+}
+}
+
+@media only screen and (max-width : 600px){
+#novini{
+	article{
+		#newsBlock{
+			li{
+			}
+			img{
+			float:none;
+			min-width: 100%;
+			}
+			h6{
+				bottom: 2px;
+			}
+			p{
+				display: inline-block;
+				min-height: 100px;
+			}
+
+		}
+	}
+}
+}
+@media only screen and (max-width : 400px){
+	#novini{
+	article{
+		#newsBlock{
+			p{
+				display: inline-block;
+				min-height: 170px;
+			}
+		}
+	}
+}
+}
